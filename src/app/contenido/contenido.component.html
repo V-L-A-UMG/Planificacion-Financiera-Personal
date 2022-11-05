@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contenido</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contenido.component.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logopfp"><img src="Venancio-1.png"  width="80" height="80" ></label>
+      <label class="logo">Planificación Financiera Personal</label>
+      <ul>
+        <li routerLinkActive="active"><a [routerLink]= "['/Bienvenida']">Inicio</a></li>
+        <li routerLinkActive="active"><a [routerLink]= "['/Verificador']">Verificador de Precios</a></li>
+        <li routerLinkActive="active"><a [routerLink]= "['/Planificador']">Planificador</a></li>
+        <li routerLinkActive="active"><a class="active" [routerLink]= "['/Contenido']">Contenido</a></li>
+        <li routerLinkActive="active"><a [routerLink]= "['/Mconsejos']">Consejos</a></li>
+      </ul>
+    </nav>
+    <h1 class="welcome">Contenido Básico de Planificación Financiera Personal</h1> 
+    <div id="general">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+     
+      <table   CELLPADDING=100 CELLSPACING=0 style="margin: 0 auto;" >
+        <TR>
+          <TD><h3 class="indicadores">Mini-planificador</h3><br><img src="miniplanificadorjpg.jpg"  width="410" height="250"></TD>
+          <TD width="350" height="300"></TD>
+          <TD><h3 class="indicadores">Indicadores para no realizar compras compulsivas</h3><br><img src="preguntasindicadorasjpg.jpg"  width="410" height="250" ></TD>
+      </table>
+      <br>
+      <br>
+      <br>
+      <table CELLPADDING=100 CELLSPACING=0 style="margin: 0 auto;" >
+        <TR>
+          <TD colspan="2" class="titulos"><h2>Dinero</h2></TD>
+          <TD width="350" height="35"></TD>
+          <TD colspan="2" class="titulos"><h2>Ahorro</h2></TD>
+        <TR>
+        <TR>
+          <TD width="250" height="130"><img src="dinerojpg.jpg"  width="250" height="130"></TD>
+          <TD class="finanzas" width="350" height="130" bgcolor=#00304E ><p class="justify" style="margin: 0 1px;">El dinero es un conjunto de activos de una economía 
+            que las personas utilizan como medio de 
+            intercambio para obtener bienes y servicios.</p></TD>
+          <TD width="350" height="130"></TD>
+          <TD width="250" height="130"><img src="ahorro2jpg.jpg"  width="250" height="130"></TD>
+          <TD class="finanzas" width="350" height="130" bgcolor=#00304E ><p class="justify" style="margin: 0 1px;">El ahorro es la porción del ingreso que se 
+            guarda de manera voluntaria para el futuro. 
+            Este puede estar ligado a una meta específica.</p></TD>
+      </table>
+      <br>
+      <br>
+      <table CELLPADDING=100 CELLSPACING=0 style="margin: 0 auto;" >
+
+        <TR>
+          <TD colspan="2" class="titulos"><h2>Finanzas</h2></TD>
+          <TD width="350" height="35"></TD>
+          <TD colspan="2" class="titulos"><h2>Planificación</h2></TD>
+        <TR>
+          <TD width="250" height="130"><img src="finanzas2jpg.jpg"  width="250" height="130"></TD>
+          <TD class="finanzas" width="350" height="130" bgcolor=#00304E ><p class="justify" style="margin: 0 1px;">Las finanzas corresponden a una rama de la economía 
+            que estudia el movimiento del dinero entre 
+            las personas, las empresas o el Estado.</p></TD>
+          <TD width="350" height="130"></TD>
+          <TD width="250" height="130"><img src="planificacionjpg.jpg"  width="250" height="130"></TD>
+          <TD class="finanzas" width="350" height="130" bgcolor=#00304E ><p class="justify" style="margin: 0 1px;">Se entiende por planificación al conjunto 
+            de acciones y decisiones creadas para 
+            cumplir un objetivo específico, utilizando los recursos a 
+            disposición y en un marco temporal predeterminado.</p></TD>
+      </table>
+    </div>
+  </body>
+</html>

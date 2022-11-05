@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Inicio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bienvenida.component.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logopfp"><img src="Venancio-1.png"  width="80" height="80" ></label>
+      <label class="logo">Planificación Financiera Personal</label>
+      <ul>
+        <li routerLinkActive="active"><a class="active" [routerLink]= "['/Bienvenida']">Inicio</a></li>
+        <li routerLinkActive="active"><a [routerLink]= "['/Verificador']">Verificador de Precios</a></li>
+        <li routerLinkActive="active"><a [routerLink]= "['/Planificador']">Planificador</a></li>
+        <li routerLinkActive="active"><a [routerLink]= "['/Contenido']">Contenido</a></li>
+        <li routerLinkActive="active"><a [routerLink]= "['/Mconsejos']">Consejos</a></li>
+      </ul>
+    </nav>
+    <h1 class="welcome">Bienvenido a PFP
+      <p>Aprendamos sobre Planificación Financiera Personal y la correcta utilización de los recursos económicos que tenemos a nuestra dispocisión.</p>
+    </h1>
+    
+    <section></section>
+    
+  </body>
+</html>
